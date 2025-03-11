@@ -24,4 +24,9 @@ public class DatalogicIntegrationModule extends ReactContextBaseJavaModule {
   public void multiply(double a, double b, Promise promise) {
     promise.resolve(a * b);
   }
+
+  @ReactMethod
+  public void add(double a, double b, Promise promise) {
+    promise.resolve(a + b);
+  }
 }

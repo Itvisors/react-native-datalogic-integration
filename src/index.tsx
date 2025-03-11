@@ -20,3 +20,7 @@ const DatalogicIntegration = NativeModules.DatalogicIntegration
 export function multiply(a: number, b: number): Promise<number> {
   return DatalogicIntegration.multiply(a, b);
 }
+
+export function add(a: number, b: number): Promise<number> {
+  return DatalogicIntegration.add(a, b);
+}
