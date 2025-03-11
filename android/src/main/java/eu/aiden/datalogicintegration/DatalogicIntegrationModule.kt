@@ -1,4 +1,4 @@
-package com.datalogicintegration
+package eu.aiden.datalogicintegration
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
