@@ -1,5 +1,10 @@
-import { add, multiply } from 'react-native-datalogic-integration';
-import { Text, View, StyleSheet } from 'react-native';
+import {
+  add,
+  multiply,
+  startReadListener,
+  stopReadListener,
+} from 'react-native-datalogic-integration';
+import { Text, View, StyleSheet, Button } from 'react-native';
 import { useState, useEffect } from 'react';
 
 export default function App() {
@@ -15,6 +20,18 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.textStyle}>Result: {result}</Text>
       <Text style={styles.textStyle}>Sum: {sum}</Text>
+      <Button
+        title="Start listener"
+        onPress={() => {
+          startReadListener();
+        }}
+      />
+      <Button
+        title="Stop listener"
+        onPress={() => {
+          stopReadListener();
+        }}
+      />
     </View>
   );
 }

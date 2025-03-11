@@ -24,3 +24,11 @@ export function multiply(a: number, b: number): Promise<number> {
 export function add(a: number, b: number): Promise<number> {
   return DatalogicIntegration.add(a, b);
 }
+
+export function startReadListener(): Promise<void> {
+  return DatalogicIntegration.startReadListener();
+}
+
+export function stopReadListener(): Promise<void> {
+  return DatalogicIntegration.stopReadListener();
+}
