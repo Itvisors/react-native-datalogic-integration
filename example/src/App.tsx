@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text style={styles.textStyle}>Result: {result}</Text>
     </View>
   );
 }
@@ -21,5 +21,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'black',
+  },
+  textStyle: {
+    color: 'white',
   },
 });
