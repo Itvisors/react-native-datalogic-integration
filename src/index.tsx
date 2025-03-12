@@ -17,14 +17,6 @@ const DatalogicIntegration = NativeModules.DatalogicIntegration
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return DatalogicIntegration.multiply(a, b);
-}
-
-export function add(a: number, b: number): Promise<number> {
-  return DatalogicIntegration.add(a, b);
-}
-
 export function startReadListener(): Promise<void> {
   return DatalogicIntegration.startReadListener();
 }
@@ -32,3 +24,5 @@ export function startReadListener(): Promise<void> {
 export function stopReadListener(): Promise<void> {
   return DatalogicIntegration.stopReadListener();
 }
+
+export const EVENT_BARCODE_VALUE_SCANNED = DatalogicIntegration.getConstants().EVENT_BARCODE_VALUE_SCANNED;
