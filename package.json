@@ -1,6 +1,6 @@
 {
   "name": "react-native-datalogic-integration",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native DataLogic Integration",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -44,19 +44,15 @@
   },
   "keywords": [
     "react-native",
-    "ios",
     "android"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgroeneweg/react-native-datalogic-integration.git"
+    "url": "git+https://github.com/itvisors/react-native-datalogic-integration.git"
   },
   "author": "Marcel Groeneweg <mgroeneweg@users.noreply.github.com> (https://github.com/mgroeneweg)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mgroeneweg/react-native-datalogic-integration/issues"
-  },
-  "homepage": "https://github.com/mgroeneweg/react-native-datalogic-integration#readme",
+  "homepage": "https://github.com/itvisors/react-native-datalogic-integration#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
