@@ -8,14 +8,14 @@ Feel free to use it but we do not provide any support outside our projects.
 ## Installation
 
 ```sh
-npm install react-native-datalogic-integration
+npm install @aidenlowcode/react-native-datalogic-integration
 ```
 
 ## Usage
 
 
 ```js
-import { startReadListener, stopReadListener, EVENT_BARCODE_VALUE_SCANNED } from 'react-native-datalogic-integration';
+import { startReadListener, stopReadListener, EVENT_BARCODE_VALUE_SCANNED } from '@aidenlowcode/react-native-datalogic-integration';
 
 // Start the listener
 startReadListener();
