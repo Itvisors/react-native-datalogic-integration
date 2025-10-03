@@ -75,9 +75,20 @@ android {
 }
 
 repositories {
-  mavenCentral()
   google()
-  maven { url "https://jitpack.io" }
+  maven {
+    url "https://maven.fabric.io/public"
+  }
+  maven { url "https://www.jitpack.io" }
+  maven {
+    url "https://maven.scijava.org/content/repositories/public/"
+  }
+  maven {
+    url "https://maven.scijava.org/content/repositories/jitpack/"
+  }
+  maven {
+    url "https://maven.scijava.org/content/repositories/jcenter/"
+  }
 }
 
 def kotlin_version = getExtOrDefault("kotlinVersion")
@@ -85,6 +96,6 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android:0.77"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation "com.github.datalogic:datalogic-android-sdk:1.42"
+  implementation "com.github.datalogic:datalogic-android-sdk:1.29"
 }
 

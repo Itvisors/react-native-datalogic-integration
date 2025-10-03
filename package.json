@@ -1,6 +1,6 @@
 {
   "name": "@aidenlowcode/react-native-datalogic-integration",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React Native DataLogic Integration",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -88,7 +88,7 @@
   "workspaces": [
     "example"
   ],
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.9.4",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
